@@ -18,7 +18,6 @@ import {
 import Slice from "./panel/slice.js";
 import { ChartType } from "./panel/chart-type.js";
 
-console.log("from sadique");
 const Panel: FC = () => {
   const [loaded, setLoaded] = useState(false);
   const [type, setType] = useState<string>("");
@@ -26,6 +25,7 @@ const Panel: FC = () => {
     undefined
   );
   const [items, setItems] = useState<ChartItem[]>([]);
+  console.log("hello from sadique");
 
   useEffect(() => {
     Promise.all([
