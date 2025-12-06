@@ -27,6 +27,7 @@ const Panel: FC = () => {
     undefined
   );
   const [items, setItems] = useState<ChartItem[]>([]);
+  console.log("hello from sadique");
 
   useEffect(() => {
     Promise.all([
