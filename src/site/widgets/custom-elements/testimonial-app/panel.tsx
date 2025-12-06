@@ -18,6 +18,7 @@ import {
 import Slice from "./panel/slice.js";
 import { ChartType } from "./panel/chart-type.js";
 
+console.log("from sadique");
 const Panel: FC = () => {
   const [loaded, setLoaded] = useState(false);
   const [type, setType] = useState<string>("");
