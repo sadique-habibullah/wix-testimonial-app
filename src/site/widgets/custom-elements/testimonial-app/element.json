@@ -1,0 +1,22 @@
+{
+  "$schema": "https://dev.wix.com/wix-cli/schemas/custom-element.json",
+  "id": "27e1f71d-0d74-445f-b6e9-a9a7793d4593",
+  "name": "Input Testimonial",
+  "width": {
+    "defaultWidth": 400,
+    "allowStretch": true
+  },
+  "height": {
+    "defaultHeight": 400
+  },
+  "installation": {
+    "autoAddToSite": true,
+    "essential": false
+  },
+  "presets": [
+    {
+      "id": "0df20200-90b1-4639-842f-264ed2692201",
+      "thumbnailUrl": "../../../../../assets/chart-widget/thumbnail.png"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://dev.wix.com/wix-cli/schemas/custom-element.json",
+  "id": "5b830873-1930-4267-87de-63d0c3e71f6d",
+  "name": "Testimonial Display",
+  "width": {
+    "defaultWidth": 450,
+    "allowStretch": true
+  },
+  "height": {
+    "defaultHeight": 250
+  },
+  "installation": {
+    "autoAddToSite": true
+  },
+  "behaviors": {
+    "dashboard": {
+      "dashboardPageComponentId": "ad6fdb5c-ef08-4586-8930-7e73d1dc375e"
+    }
+  },
+  "presets": [
+    {
+      "id": "2d2f4389-6a2b-49ae-8c78-7048bdea48b5",
+      "thumbnailUrl": "../../../../assets/testimonial-display/thumbnail.png"
+    }
+  ]
+}

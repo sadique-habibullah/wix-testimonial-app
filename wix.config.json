@@ -1,0 +1,5 @@
+{
+  "$schema": "https://dev.wix.com/wix-cli/schemas/wix-config.json",
+  "appId": "2c35134c-d362-4231-a85a-b117aa0e4f40",
+  "projectId": "testimonial"
+}
